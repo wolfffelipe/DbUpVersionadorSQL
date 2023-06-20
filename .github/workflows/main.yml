@@ -15,5 +15,5 @@ jobs:
 
     - name: Run executable
       run: |
-        chmod +x C:\Users\Usuario\source\repos\DbUpVersionadorSQL\DbUpVersionadorSQL\bin\Release\DbUpVersionadorSQL.exe
-        C:\Users\Usuario\source\repos\DbUpVersionadorSQL\DbUpVersionadorSQL\bin\Release\DbUpVersionadorSQL.exe
+        chmod +x DbUpVersionadorSQL.exe
+        ./DbUpVersionadorSQL.exe
