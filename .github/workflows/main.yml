@@ -1,0 +1,19 @@
+name: Pipeline de Execução
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Run executable
+      run: |
+        chmod +x DbUpVersionadorSQL.exe
+        ./DbUpVersionadorSQL.exe
