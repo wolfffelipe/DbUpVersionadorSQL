@@ -15,7 +15,8 @@ namespace DbUpVersionadorSQL
 
             var connectionString =
                 args.FirstOrDefault()
-                ?? "Server=DESKTOP-Q3PMUH8; Database=DBTeste; User Id=felipe.wolff; Password=123456;";
+                ?? "Server=200.214.244.210\\desenvolvimento2,11451; Database=TesteDesenvolvimento; User Id=felipe.wolf; Password=Fh6WDC@9O9u3;";
+            //?? "Server=DESKTOP-Q3PMUH8; Database=DBTeste; User Id=felipe.wolff; Password=123456;";
             /*
             var connectionString =
                 args.FirstOrDefault()
