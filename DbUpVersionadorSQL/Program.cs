@@ -12,9 +12,15 @@ namespace DbUpVersionadorSQL
     {
         static int Main(string[] args)
         {
+
+            var connectionString =
+                args.FirstOrDefault()
+                ?? "Server=DESKTOP-Q3PMUH8; Database=DBTeste; User Id=felipe.wolff; Password=123456;";
+            /*
             var connectionString =
                 args.FirstOrDefault()
                 ?? "Server=DESKTOP-Q3PMUH8; Database=DBTeste; Trusted_connection=true";
+            */
 
             var upgrader =
                 DeployChanges.To
