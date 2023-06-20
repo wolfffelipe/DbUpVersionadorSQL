@@ -1,18 +1,14 @@
-name: Pipeline de Execução
+name: Executar DbUpVersionadorSQL.exe
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
 
 jobs:
-  build:
+  run-exe:
     runs-on: windows-latest
-
     steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-
-    - name: Run executable
-      run: |
-        .\DbUpVersionadorSQL.exe
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Executar DbUpVersionadorSQL.exe
+        run: .\DbUpVersionadorSQL.exe
