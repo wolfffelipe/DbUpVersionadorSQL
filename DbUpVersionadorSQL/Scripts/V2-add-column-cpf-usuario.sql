@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Usuario ADD cpf VARCHAR(20)
