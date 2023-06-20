@@ -95,5 +95,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Scripts\V3-add-column-idade.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\V4-teste-action-1.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

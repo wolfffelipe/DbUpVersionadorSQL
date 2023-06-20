@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Usuario ADD action1 bit
